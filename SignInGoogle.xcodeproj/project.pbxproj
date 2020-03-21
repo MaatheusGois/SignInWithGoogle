@@ -51,6 +51,32 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8218AFEA24259C3300E3490F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82722CBF24258C2D000BD9AA /* Main.storyboard */,
+				82722CC424258C2F000BD9AA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8218AFEC24259C4200E3490F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82722CBD24258C2D000BD9AA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8218AFED24259C4900E3490F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				82722CB924258C2D000BD9AA /* AppDelegate.swift */,
+				82722CBB24258C2D000BD9AA /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		82722CAD24258C2D000BD9AA = {
 			isa = PBXGroup;
 			children = (
@@ -72,12 +98,10 @@
 		82722CB824258C2D000BD9AA /* SignInGoogle */ = {
 			isa = PBXGroup;
 			children = (
-				82722CB924258C2D000BD9AA /* AppDelegate.swift */,
-				82722CBB24258C2D000BD9AA /* SceneDelegate.swift */,
-				82722CBD24258C2D000BD9AA /* ViewController.swift */,
-				82722CBF24258C2D000BD9AA /* Main.storyboard */,
+				8218AFED24259C4900E3490F /* Application */,
+				8218AFEC24259C4200E3490F /* Controller */,
+				8218AFEA24259C3300E3490F /* View */,
 				82722CC224258C2F000BD9AA /* Assets.xcassets */,
-				82722CC424258C2F000BD9AA /* LaunchScreen.storyboard */,
 				82722CC724258C2F000BD9AA /* Info.plist */,
 			);
 			path = SignInGoogle;

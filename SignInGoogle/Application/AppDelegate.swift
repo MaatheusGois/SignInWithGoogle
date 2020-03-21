@@ -53,6 +53,7 @@ extension AppDelegate: GIDSignInDelegate {
         let givenName = user.profile.givenName
         let familyName = user.profile.familyName
         let email = user.profile.email
+        
         print(userId as Any,
               idToken as Any,
               fullName as Any,
